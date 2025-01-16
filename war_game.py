@@ -265,8 +265,6 @@ class War_Player:
 def main():
 
     my_game = War_Game(4)
-# Change made in Branch Two!!
-    print("This is an edit made in Branch Two!!!")
     print("Time to play the game!")
 	
     print("First we must do testing!")
