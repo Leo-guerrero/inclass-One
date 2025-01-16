@@ -241,11 +241,12 @@ class War_Player:
         while(len(self.discard) > 0):
             self.add_card_hand(self.discard.pop())
 
+# Another change made in Branch Two
     def add_win(self):
-        self.record[0] += 1
+        self.record[0] += 5
 
     def add_loss(self):
-        self.record[1] += 1
+        self.record[1] += 5
 
 
     def __str__(self):
@@ -264,7 +265,10 @@ class War_Player:
 def main():
 
     my_game = War_Game(4)
+# Change made in Branch Two!!
+    print("This is an edit made in Branch Two!!!")
     print("Time to play the game!")
+	
     print("First we must do testing!")
     # my_game.deal_cards()
     # print(my_game)
