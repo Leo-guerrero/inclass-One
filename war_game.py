@@ -22,8 +22,9 @@ class Card:
             self.suit = the_suit
         else:
             #print("Illegal card value, creating a 2 of Clubs")
-            self.face = -1
-            self.suit = "Super duper sigma card!"
+	# Minor Changes to the code in Change One
+            self.face = -2
+            self.suit = "That card is very very Illegal!!!"
 
     # Retuns the suit value of the calling card
     def get_suit(self):
