@@ -8,7 +8,7 @@
 # Global variables used to create a new deck
 face = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 # Change from Branch Five AND Six
-suit = ["Pork", "Donut", "Steak", "Meat"]
+suit =  ["Meat", "Apples", "Pears", "Oranges"]
 
 import random
 
