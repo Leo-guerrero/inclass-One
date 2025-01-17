@@ -271,7 +271,8 @@ def main():
     print("First we must do testing!")
     # my_game.deal_cards()
     # print(my_game)
-    for i in range(10):
+    # Change from Branch four 
+    for i in range(15):
         my_game.initialize_game()
         my_game.play_game()
     print("\n\n\n%s" % my_game)
